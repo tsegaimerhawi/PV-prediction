@@ -1,0 +1,19 @@
+# Core Machine Learning Libraries
+tensorflow==2.10
+numpy>=1.21.6,<1.23
+pandas>=1.1.5,<1.5
+scikit-learn>=0.24.0,<0.25
+
+# Visualization Libraries
+matplotlib>=3.2.2,<3.5
+seaborn>=0.11.0,<0.12
+
+# Jupyter Notebook for running .ipynb files if needed
+notebook>=6.4.0,<7.0
+jupyter
+
+# Optional Dependencies for Model Saving/Loading
+h5py>=2.10.0,<3.0
+
+# Optional: To avoid warnings and enhance compatibility
+protobuf==3.19.6
